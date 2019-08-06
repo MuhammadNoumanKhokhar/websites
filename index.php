@@ -50,3 +50,18 @@ class circular implements CollegeFaculty {
         return $this->r;
     }
 }
+
+$obj = new circular();
+
+$obj1 = new StaffFaculty(3,4,100);
+
+echo StaffFaculty::$xx;
+
+$obj->setRadius(10);
+
+$area = $obj->Area();
+
+
+
+
+
